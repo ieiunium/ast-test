@@ -16,10 +16,10 @@ public class CalcEngineTest {
     @DataProvider
     public static Object[][] data() {
         return new Object[][] {
-                { "2 + 2",4 },
-                { "3 * 3",9 },
-                { "4 / 2",2 },
-                { "5 - 1",4 },
+                {"22  +  22", 44},
+                {"3 * 3", 9},
+                {"4 / 2", 2},
+                {"5 - 1", 4},
                 { "2/2 + (1 + 2*(5+2)) + 3*3", 25},
         };
     }
